@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">YouTube Clone</div>
+      <input type="text" class="search-bar" placeholder="Search">
+    </header>
+    <div class="main-content">
+      <aside class="sidebar">
+        <ul>
+          <li>Home</li>
+          <li>Trending</li>
+          <li>Subscriptions</li>
+          <li>Library</li>
+        </ul>
+      </aside>
+      <div class="content">
+        <div class="video-player">
+          <iframe id="video-frame" width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-list">
+          <!-- Videos will be loaded here by script.js -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
